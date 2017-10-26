@@ -18,5 +18,10 @@ namespace Test2015Pro.Controllers
         {
             return RedirectToAction("Index");
         }
+
+        public ActionResult Return()
+        {
+            return View();
+        }
     }
 }
